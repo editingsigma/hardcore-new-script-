@@ -1,66 +1,103 @@
-place(-10.27, 2.31, -34.63, "Militant", 600)
-upgrade(-10.27, 3.66, -34.63, 300)
-upgrade(-10.27, 3.66, -34.63, 850)
+// --- Initial 3 Farms ---
+place(-12.66, 5.36, 26.44, "Farm", 300)
+place(-12.62, 4.71, 29.61, "Farm", 300)
+place(-12.73, 5.20, 33.32, "Farm", 300)
 
-place(-10.06, 2.79, -31.23, "Militant", 600)
-upgrade(-10.06, 4.14, -31.23, 300)
-upgrade(-10.06, 4.14, -31.23, 850)
+upgrade(-12.66, 5.36, 26.44, 200)
+upgrade(-12.62, 4.71, 29.61, 200)
+upgrade(-12.73, 5.20, 33.32, 200)
 
-place(-10.06, 2.76, -28.71, "Militant", 600)
-upgrade(-10.06, 4.11, -28.71, 300)
-upgrade(-10.06, 4.11, -28.71, 850)
+upgrade(-12.66, 5.36, 26.44, 600)
+upgrade(-12.62, 4.71, 29.61, 600)
 
-place(-16.60, 2.47, -25.07, "Militant", 600)
-upgrade(-16.60, 3.82, -25.07, 300)
-upgrade(-16.60, 3.82, -25.07, 850)
+// Place Boomerang #1
+place(9.66, 3.35, 21.96, "Boomerang", 550)
 
-place(-16.61, 2.65, -28.53, "Militant", 600)
-upgrade(-16.61, 4.00, -28.53, 300)
-upgrade(-16.61, 4.00, -28.53, 850)
+upgrade(-12.73, 5.20, 33.32, 600)
 
-place(-16.76, 2.42, -32.25, "Militant", 600)
-upgrade(-16.76, 3.77, -32.25, 300)
-upgrade(-16.76, 3.77, -32.25, 850)
+// Upgrade Boomerang to lvl 1, place Farm #4, bring to lvl 2
+upgrade(9.66, 3.35, 21.96, 400)
+place(-12.75, 5.20, 36.41, "Farm", 300)
+upgrade(-12.75, 5.20, 36.41, 200)
+upgrade(-12.75, 5.20, 36.41, 600)
 
-place(-17.05, 1.71, -36.09, "Militant", 600)
-upgrade(-17.05, 3.06, -36.09, 300)
-upgrade(-17.05, 3.06, -36.09, 850)
+// Upgrade Boomerang to lvl 2, place Farm #5 at lvl 1
+upgrade(9.66, 3.35, 21.96, 750)
+place(-16.18, 5.33, 32.15, "Farm", 300)
+upgrade(-16.18, 5.33, 32.15, 200)
 
-place(-17.18, 1.48, -39.81, "Militant", 600)
-upgrade(-17.18, 2.83, -39.81, 300)
-upgrade(-17.18, 2.83, -39.81, 850)
+// Get 2 lvl 3 farms (F1, F2)
+upgrade(-12.66, 5.36, 26.44, 1250)
+upgrade(-12.62, 4.71, 29.61, 1250)
 
-place(-0.38, 3.91, 29.38, "Trapper", 500)
-upgrade(-0.38, 5.26, 29.38, 500)
-upgrade(-0.38, 5.26, 29.38, 1500)
+// Upgrade Boomerang to lvl 3
+upgrade(9.66, 3.35, 21.96, 2500)
 
-place(2.96, 3.30, 29.27, "Trapper", 500)
-upgrade(2.96, 4.65, 29.27, 500)
-upgrade(2.96, 4.65, 29.27, 1500)
+// --- Minigunner placed right after first lvl 3 Boomerang ---
+place(0.96, 1.96, 11.10, "Minigunner", 1850)
+upgrade(0.96, 1.96, 11.10, 350)
 
-place(-4.62, 3.35, 22.39, "Trapper", 500)
-upgrade(-4.62, 4.70, 22.39, 500)
-upgrade(-4.62, 4.70, 22.39, 1500)
+// Get 3rd lvl 3 farm (F3), place Crook Boss #1 to lvl 2
+upgrade(-12.73, 5.20, 33.32, 1250)
+place(6.11, 3.17, 28.96, "Crook Boss", 2250)
+upgrade(6.11, 3.17, 28.96, 1500)
+upgrade(6.11, 3.17, 28.96, 2750)
 
-place(-1.24, 3.26, 22.54, "Trapper", 500)
-upgrade(-1.24, 4.61, 22.54, 500)
-upgrade(-1.24, 4.61, 22.54, 1500)
+// Upgrade remaining farms to lvl 3 (F4, F5, F6, F7)
+upgrade(-12.75, 5.20, 36.41, 1250)
+upgrade(-16.18, 5.33, 32.15, 600)
+upgrade(-16.18, 5.33, 32.15, 1250)
+place(-16.14, 5.45, 28.95, "Farm", 300)
+upgrade(-16.14, 5.45, 28.95, 200)
+upgrade(-16.14, 5.45, 28.95, 600)
+upgrade(-16.14, 5.45, 28.95, 1250)
+place(-16.10, 4.67, 25.53, "Farm", 300)
+upgrade(-16.10, 4.67, 25.53, 200)
+upgrade(-16.10, 4.67, 25.53, 600)
+upgrade(-16.10, 4.67, 25.53, 1250)
 
-place(1.86, 3.25, 22.58, "Trapper", 500)
-upgrade(1.86, 4.60, 22.58, 500)
-upgrade(1.86, 4.60, 22.58, 1500)
+// Place Crook Boss #2 to lvl 2
+place(2.48, 3.33, 28.89, "Crook Boss", 2250)
+upgrade(2.48, 3.33, 28.89, 1500)
+upgrade(2.48, 3.33, 28.89, 2750)
 
-place(5.34, 3.13, 22.40, "Trapper", 500)
-upgrade(5.34, 4.48, 22.40, 500)
-upgrade(5.34, 4.48, 22.40, 1500)
+// Place Crook Boss #3 to lvl 2
+place(5.01, 3.91, 32.68, "Crook Boss", 2250)
+upgrade(5.01, 3.91, 32.68, 1500)
+upgrade(5.01, 3.91, 32.68, 2750)
 
-// --- Delayed 3rd upgrade pass for all Militants ---
+// Place 3 lvl 3 Boomerangs total (B1 already lvl3, add B2 and B3)
+place(6.15, 3.38, 21.88, "Boomerang", 550)
+upgrade(6.15, 3.38, 21.88, 400)
+upgrade(6.15, 3.38, 21.88, 750)
+upgrade(6.15, 3.38, 21.88, 2500)
+place(2.96, 3.53, 22.02, "Boomerang", 550)
+upgrade(2.96, 3.53, 22.02, 400)
+upgrade(2.96, 3.53, 22.02, 750)
+upgrade(2.96, 3.53, 22.02, 2500)
 
-upgrade(-10.27, 3.66, -34.63, 2750)
-upgrade(-10.06, 4.14, -31.23, 2750)
-upgrade(-10.06, 4.11, -28.71, 2750)
-upgrade(-16.60, 3.82, -25.07, 2750)
-upgrade(-16.61, 4.00, -28.53, 2750)
-upgrade(-16.76, 3.77, -32.25, 2750)
-upgrade(-17.05, 3.06, -36.09, 2750)
-upgrade(-17.18, 2.83, -39.81, 2750)
+// Get 3 lvl 3 Crook Bosses
+upgrade(6.11, 3.17, 28.96, 14000)
+upgrade(2.48, 3.33, 28.89, 14000)
+upgrade(5.01, 3.91, 32.68, 14000)
+
+// --- Endgame: max out remaining Boomerangs (B4-B7) ---
+place(-0.61, 3.55, 21.91, "Boomerang", 550)
+upgrade(-0.61, 3.55, 21.91, 400)
+upgrade(-0.61, 3.55, 21.91, 750)
+upgrade(-0.61, 3.55, 21.91, 2500)
+place(10.88, 2.25, 19.17, "Boomerang", 550)
+upgrade(10.88, 2.25, 19.17, 400)
+upgrade(10.88, 2.25, 19.17, 750)
+upgrade(10.88, 2.25, 19.17, 2500)
+place(7.49, 2.30, 19.10, "Boomerang", 550)
+upgrade(7.49, 2.30, 19.10, 400)
+upgrade(7.49, 2.30, 19.10, 750)
+upgrade(7.49, 2.30, 19.10, 2500)
+place(0.96, 2.49, 18.26, "Boomerang", 550)
+upgrade(0.96, 2.49, 18.26, 400)
+upgrade(0.96, 2.49, 18.26, 750)
+upgrade(0.96, 2.49, 18.26, 2500)
+
+// Whenever you're ready for lvl 4 Boomerangs (7000 each), just run:
+// upgrade(X, Y, Z, 7000) on each Boomerang coord above
